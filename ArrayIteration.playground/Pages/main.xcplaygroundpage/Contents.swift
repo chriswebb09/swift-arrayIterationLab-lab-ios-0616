@@ -16,6 +16,7 @@
 // write your code here
 
 
+var ingredients = ["Chips", "Salsa", "Guacamole", "Red wine"]
 
 
 
@@ -25,6 +26,8 @@
  */
 // write your code here
 
+
+var shoppingCart: [Int] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 
@@ -36,6 +39,9 @@
  */
 // write your code here
 
+for number in shoppingCart {
+    print("/(number")
+}
 
 
 
@@ -47,7 +53,9 @@
  */
 // write your code here
 
-
+for item in ingredients {
+    print("/(item)")
+}
 
 
 
